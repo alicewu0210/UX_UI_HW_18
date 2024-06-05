@@ -1,0 +1,74 @@
+/*navigayion css */
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+    padding-top: 2%;
+    padding-left: 2%;
+    background-color: rgb(115, 110, 102);
+    vertical-align: top;
+}
+
+.nav-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+
+.nav-item{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.myLogo{
+    width:4%;
+    padding:2px;
+}
+
+/*body */
+
+#categoryGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 710px;
+    grid-template-areas: 
+    "doi about camping"
+    "npo contact caseStudy";
+}
+   
+#about{
+    grid-area: about;
+    padding: 5px;
+    border-left:1px solid #000000;
+    border-right:1px solid #000000;
+}
+
+#aboutMe{
+    display:grid;
+    padding: 10px;
+}
+    
+#introduction{
+    display:grid;
+    padding: 10px;
+}
+
+#contact{
+    grid-area: contact;
+    padding: 5px;
+    align-content: end;
+    text-align: center;
+    border-left:1px solid #000000;
+    border-right:1px solid #000000;
+}
+
+.footer-item{
+    color:rgb(60, 60, 60);
+    margin-right: 30px;
+    text-decoration: underline;
+}

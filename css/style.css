@@ -24,6 +24,13 @@
     text-decoration: none;
 }
 
+.nav-item-underline{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
 .myLogo{
     width:4%;
     padding:2px;
@@ -43,7 +50,7 @@
    
 #about{
     grid-area: about;
-    padding: 5px;
+    padding: 30px;
     border-left:1px solid #000000;
     border-right:1px solid #000000;
 }
@@ -51,24 +58,279 @@
 #aboutMe{
     display:grid;
     padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+
 }
     
 #introduction{
     display:grid;
     padding: 10px;
+    text-align: center;
 }
 
 #contact{
     grid-area: contact;
-    padding: 5px;
     align-content: end;
     text-align: center;
     border-left:1px solid #000000;
     border-right:1px solid #000000;
 }
 
+#contactsection{
+    grid-area: contact;
+    background-color:rgb(115, 110, 102);
+    padding-bottom: 10px;
+    height: 30px;
+    align-content: flex-end;
+}
 .footer-item{
-    color:rgb(60, 60, 60);
+    color:rgb(241, 242, 235);
     margin-right: 30px;
     text-decoration: underline;
+}
+
+#doi{
+    grid-area: doi;
+    padding-top:15px;
+    padding-left: 30px;
+    padding-right:3px;
+    border-bottom:1px solid #000000;
+
+}
+
+#npo{
+    grid-area: npo;
+    padding-top:15px;
+    padding-left: 30px;
+    padding-right:3px;
+}
+
+#camping{
+    grid-area: camping;
+    padding-top:15px;
+    padding-left: 30px;
+    padding-right:3px;
+    border-bottom:1px solid #000000;
+
+}
+
+#caseStudy{
+    grid-area: caseStudy;
+    padding-top:15px;
+    padding-left: 30px;
+    padding-right:3px;
+}
+
+.myWorkMock{
+    width:98%
+}
+
+#doiwebsite{
+    padding:10px;
+}
+
+#npowebsite{
+    padding:10px;
+}
+
+#campingapp{
+    padding:10px;
+}
+
+#casestudybox{
+    padding:10px;
+}
+
+/*my skills*/
+
+#mySkillGrid{
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 710px;
+    grid-template-areas: 
+    "resume education experience experienceIntro blank1"
+    "uxSkills userResearch wireframe ui blank";
+}
+
+/*resume*/
+
+#resume{
+    grid-area:resume;
+    background-color: rgb(191, 189, 190);
+    height:71.4%
+}
+
+#resumeText{
+    padding-top:27%;
+    padding-left:60%;
+    padding-bottom:20%
+
+}
+
+/* Education*/
+
+#education{
+    grid-area:education;
+    /* display: flex;
+    flex-direction: row; */
+    background-color: rgb(191, 189, 190);
+    height:71.4%;
+    /* margin-right:5%; */
+}
+
+#educationText{
+    background-color: rgb(60, 69, 82);
+    text-align: left;
+    height: 110%;
+    margin-top: 15%;
+    padding-top: 10%;
+    /* padding-left: 20%;
+    padding-right: 5%; */
+}
+
+.Introduction{
+    /* display:flex;
+    flex-direction:column; */
+    background-color: rgb(60, 69, 82);
+    color: rgb(241, 242, 235);
+    height: 110%;
+    font-size:13.5px;
+    line-height: 150%;
+    margin-top: 15%;
+    padding-top:10%;
+    /* padding-left: 7%;
+    padding-right: 2%; */
+}
+
+.educationFlex{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(60, 69, 82);
+    height: 110%;
+}
+/* experience */
+
+#experience{
+    grid-area:experience;
+    background-color: rgb(191, 189, 190);
+    height:71.4%
+}
+
+#experienceText{
+    background-color: rgb(60, 69, 82);
+    text-align: right;
+    height: 110%;
+    margin-top: 15%;
+    padding-top: 10%;
+    padding-left: 75%;
+    padding-right: 5%;
+}
+/*experiecneINtro*/
+
+#experienceIntro{
+    grid-area:experienceIntro;
+    background-color: rgb(191, 189, 190);
+    height:71.4%
+}
+
+.flext-container-Introduction{
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(60, 69, 82);
+    color: rgb(241, 242, 235);
+    height: 110%;
+    line-height: 150%;
+    margin-top: 15%;
+    padding-top:10%;
+    padding-left: 6%;
+    padding-right: 2%;
+}
+
+
+
+/*ux skills*/
+
+#uxSkills{
+    grid-area:uxSkills;
+    padding-left: 50%;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+
+/*user research*/
+
+#userResearch{
+    grid-area: userResearch;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%
+}
+
+
+h5{
+    text-align: center;
+    padding-top: 5%;
+    color: rgb(241, 242, 235);
+    background-color: rgb(119, 139, 163);
+    height:30px;
+    margin-top: auto;
+}
+
+p{
+    background-color: rgb(217, 217, 217);
+    height: 160px;
+    padding-top:10%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+/*wiereframe*/
+
+#wireframe{
+    grid-area: wireframe;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%
+}
+
+/*ui*/
+
+#ui{
+    grid-area: ui;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%
+}
+
+/*blank*/
+#blank1{
+    grid-area:blank1;
+    background-color: rgb(191, 189, 190);
+    height:71.4%
+}
+
+@media only screen and (max-width:600px){
+    .Introduction{
+        display:none;
+        width: 100%;
+    }
+
+    #mySkillGrid{
+        grid-template-rows: 2fr 3fr 3fr 3fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "resume"
+        "education"
+        "experience"
+        "experienceIntro"
+        "blank"
+        "uxSkills"
+        "usesrResearch"
+        "wireframe"
+        "ui"
+        "blank";
+    }
 }

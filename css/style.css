@@ -166,7 +166,8 @@
 #resumeText{
     padding-top:27%;
     padding-left:60%;
-    padding-bottom:20%
+    padding-bottom:20%;
+    color: rgb(60, 69, 82);
 
 }
 
@@ -184,9 +185,8 @@
 #educationText{
     background-color: rgb(60, 69, 82);
     text-align: left;
-    height: 110%;
-    margin-top: 15%;
-    padding-top: 10%;
+    padding-left: 15%;
+    margin-top: 5%;
     /* padding-left: 20%;
     padding-right: 5%; */
 }
@@ -196,20 +196,17 @@
     flex-direction:column; */
     background-color: rgb(60, 69, 82);
     color: rgb(241, 242, 235);
-    height: 110%;
-    font-size:13.5px;
     line-height: 150%;
-    margin-top: 15%;
     padding-top:10%;
-    /* padding-left: 7%;
-    padding-right: 2%; */
+    padding-left: 10%;
 }
 
 .educationFlex{
     display: flex;
     flex-direction: row;
     background-color: rgb(60, 69, 82);
-    height: 110%;
+    height: 124%;
+    margin-top: 15%;
 }
 /* experience */
 
@@ -257,7 +254,8 @@
     grid-area:uxSkills;
     padding-left: 50%;
     padding-top: 10%;
-    padding-right: 10%;
+    padding-right: 8%;
+    color: rgb(60, 69, 82);
 }
 
 /*user research*/
@@ -265,7 +263,6 @@
 #userResearch{
     grid-area: userResearch;
     padding-top: 10%;
-    padding-left: 2%;
     padding-right: 2%
 }
 
@@ -302,7 +299,6 @@ p{
     grid-area: ui;
     padding-top: 10%;
     padding-left: 2%;
-    padding-right: 2%
 }
 
 /*blank*/

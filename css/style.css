@@ -310,12 +310,11 @@ p{
 
 @media only screen and (max-width:600px){
     .Introduction{
-        display:none;
         width: 100%;
     }
 
     #mySkillGrid{
-        grid-template-rows: 2fr 3fr 3fr 3fr 1fr;
+        grid-template-rows: auto;
         grid-template-columns: 1fr;
         grid-template-areas: 
         "resume"
